@@ -94,7 +94,7 @@ def index():
                 for x in range(len(cities)):
                     fp.write(cities[x]+"\n")
 
-    url = 'http://api.openweathermap.org/data/2.5/weather?q={}&units=metric&appid=<app-key-id>'
+    url = 'http://api.openweathermap.org/data/2.5/weather?q={}&units=metric&appid=49d38129abd0212858bb60c7c1b4581a'
     weather_data = []
     for city in cities:
         r = requests.get(url.format(city)).json()
