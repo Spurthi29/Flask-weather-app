@@ -34,7 +34,6 @@ def weather():
             "icon": "04n",
             "city_name": city
         }
-    print(f"##################### {data}")
 
     return render_template("index.html", data=data)
 
