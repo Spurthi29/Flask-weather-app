@@ -108,4 +108,4 @@ def index():
     return rt('weather.html', weather_data=weather_data)
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host="0.0.0.0")
