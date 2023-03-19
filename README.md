@@ -10,14 +10,11 @@ Instructions to run the App:
 4) Run the weather.py file - "python weather.py".
 
 
-Live Deployment:
---
-This Web-app is deployed at https://aravindprasad.pythonanywhere.com/ 
 
 
 Snapshot:
 --
-https://github.com/aravindprasad90/Flask-weather-app/blob/master/Screenshot.png 
+
 
 
 Note
