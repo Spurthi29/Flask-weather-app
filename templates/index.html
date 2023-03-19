@@ -73,7 +73,26 @@
             </div>
           </div>
         </div>
-        {%endif%}
+      {% else %}
+          <div class="container">
+              <div class="row d-flex justify-content-center">
+          <div class="col-md-6">
+                  <div class="card mb-3" style="max-width: 850px; border: none">
+                      <div class="row">
+                          <div class="col p-0 justify-content-start">
+                              <img src="http://openweathermap.org/img/wn/{{ data.icon }}@4x.png" alt="#" style="width: 200px;" />
+                          </div>
+                          <div class="col">
+                              <div class="row">
+                                  <div class="card-body">
+                                      <h4 class="card-title">{{data.city}}</h4>
+                                      Description : Data Not found for City {{data.city_name}}
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+      {% endif %}
       </div>
     </div>
   </div>
