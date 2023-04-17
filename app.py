@@ -9,7 +9,7 @@ def weather():
     if request.method == "POST":
         city = request.form["city"]
     else:
-        city = "bangalore"
+        city = "HYD"
     api_key = "49d38129abd0212858bb60c7c1b4581a"
     response = requests.get(
         'http://api.openweathermap.org/data/2.5/weather?q=' + city + '&appid=' + api_key + '&units=metric')
